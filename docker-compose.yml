@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+
+  kubeless-netcore-runtime:
+    container_name: kubeless-netcore-runtime
+    hostname: kubeless-netcore-runtime
+    build: .
+    image: ianblenke/kubeless-netcore-runtime
